@@ -1,0 +1,99 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    font-size: 16px;
+    color: black;
+}
+
+#container {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 570px;
+    top: 50%;
+    left: 50%;
+    background-color: #1b87ec;
+    padding: 20px;
+}
+
+#container-in {
+    width: 460px;
+    height: 530px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.form-control {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+button {
+    width: 100%;
+    background-color: #1b87ec ;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    border-color: #1b87ec;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#error-con {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 160px;
+    top: 50%;
+    left: 50%;
+    background-color: #ec981b;
+    padding: 10px;
+    display: none;
+}
+
+#error-con-in {
+    width: 280px;
+    height:140px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#close {
+    width: 20px;
+    height: 20px;
+    padding: 1px;
+    margin-left: 5px;
+}
+
+#error-con p {
+    font-weight: bold;
+    padding: 16px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 18px;
+}
